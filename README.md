@@ -12,6 +12,7 @@ The school Payment Reminder System simplifies payment management by providing a 
 + Payment Status Tracking: The system tracks the payment status for each student. It marks payments as received once they are made, providing administrators with an overview of outstanding fees.
 
 **Functions**
+
 	The main functions of the University Student Payment Reminder System include:
 1.Student Management: Add, update, and delete student records. Maintain student details such as name, student ID, and contact information.
 2.Payment Recording: Record payments made by students, including the type of payment, amount, and due date.

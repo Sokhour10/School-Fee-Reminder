@@ -6,13 +6,7 @@ class Student extends User
     private String username;
     private String phoneNumber;
     private String major;
-
-    // Constructors, getters, and setters
-    public Student() 
-    {
-        
-    }
-
+    
     public Student(int studentID, int id, String name, String password, String username, String phoneNumber, String major) 
     {
         super(id, name, password);

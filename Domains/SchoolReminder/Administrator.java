@@ -3,11 +3,6 @@ class Administrator extends User
 {
     private int admin_id;
 
-    // Constructors, getters, and setters
-    public Administrator() 
-    {
-    }
-
     public Administrator(int admin_id, int id, String name, String password) 
     {
         super(id, name, password);

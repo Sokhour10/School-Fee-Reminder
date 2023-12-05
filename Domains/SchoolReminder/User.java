@@ -6,10 +6,6 @@ abstract class User // User is the abstract class that derived from the student
     private String name;
     private String password;
 
-    // Constructors, getters, and setters
-    public User() {
-    }
-
     public User(int id, String name, String password) 
     {
         this.id = id;

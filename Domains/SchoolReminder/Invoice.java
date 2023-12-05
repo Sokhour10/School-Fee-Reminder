@@ -8,12 +8,6 @@ class Invoice
     private double amount;
     private boolean paymentStatus;
 
-    // Constructors, getters, and setters
-    public Invoice() 
-    {
-        
-    }
-
     public Invoice(String invoiceID, LocalDate dueDate, double amount, boolean paymentStatus) 
     {
         this.invoiceID = invoiceID;

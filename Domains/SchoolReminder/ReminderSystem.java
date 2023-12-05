@@ -8,12 +8,7 @@ class ReminderSystem
     private String description;
     private char type;
     private LocalDate date;
-
-    // Constructors, getters, and setters
-    public ReminderSystem() 
-    {
-        
-    }
+    // Constructor
 
     public ReminderSystem(int id, String title, String description, char type, LocalDate date) {
         this.id = id;

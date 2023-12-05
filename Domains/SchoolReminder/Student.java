@@ -71,10 +71,11 @@ class Student extends User
         System.out.println("Major: " + getMajor());
     }
 
-    // Example method (overloading)
+    //Overloading
     public void displayUserInfo(boolean showDetails) 
     {
-        if (showDetails) {
+        if (showDetails) 
+        {
             displayUserInfo();
         } else {
             System.out.println("Student ID: " + getStudentID());

@@ -8,12 +8,6 @@ class PaymentRecord
     private double amount;
     private boolean status;
 
-    // Constructors, getters, and setters
-    public PaymentRecord() 
-    {
-        
-    }
-
     public PaymentRecord(String paymentID, LocalDate dueDate, double amount, boolean status) 
     {
         this.paymentID = paymentID;
